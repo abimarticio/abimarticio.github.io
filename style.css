@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+}
+
+.nav-brand a{
+	padding-left: 15px;
+	padding-right: 20px;
+}
+
+#home {
+	margin: auto;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 280px;
+}
+
+#home img {
+padding: 30px 30px;
+}
+
+#home p {
+	font-size: 30px;
+}
+
+#home img:hover,
+#contact img:hover {
+animation: shake 0.5s;
+}
+
+@keyframes shake {
+	0% {
+	transform: translate(1px, 1px) rotate(0deg);
+	}
+	20% {
+	transform: translate(-3px, 0px) rotate(1deg);
+	}
+	40% {
+	transform: translate(1px, -1px) rotate(1deg);
+	}
+	60% {
+	transform: translate(-3px, 1px) rotate(0deg);
+	}
+	80% {
+	transform: translate(-1px, -1px) rotate(1deg);
+	}
+	100% {
+	transform: translate(-1px, -2px) rotate(-1deg);
+	}
+}
+
+#main-content {
+	width: 100%;
+	margin: auto;
+	padding: 20px 40px;
+	/* align-items: center; */
+}
+
+#main-content div {
+	padding: 60px 80px;
+	padding-left: 150px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+main section:nth-of-type(odd) h2 {
+	background-color: rgb(60, 90, 119);
+	color: #fff;
+	padding: 40px 60px;
+	font-size: 2.5rem;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+#about table td{
+	padding-left: 40px;
+	line-height: 22px;
+}
+
+#about p {
+	padding-left: 40px;
+	line-height: 22px ;
+}
+
+#about p:first-child div{
+	font-style: italic;
+}
+
+#about ul {
+	padding-left: 80px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+	/* Styles */
+	body {
+		background-color: #ffffff;
+		color: rgb(0, 0, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		line-height: 1em;
+	}
+	
+	#home {
+		margin: auto;
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+
+	#home img {
+		padding: 30px 30px;
+		width: 200px;
+		height: 200px;
+	}
+
+	#home h1 {
+		font-size: 2rem;
+	}
+
+	#home h2 {
+		font-size: 1.5rem;
+	}
+
+	#icons img {
+		padding: 20px 20px;
+		width: 100px;
+		height: 100px;
+	}
+
+	#main-content div {
+		padding: 5px 11px;
+		display: block;
+		flex-direction: column;
+		align-content: space-evenly;
+		align-items: space-evenly;
+		
+	}
+
+	#about h2 {
+		font-size: 1.5rem;
+	}
+
+	#about h3 {
+		padding: 40px, 90px;
+		font-size: 1.25rem;
+	}
+}
+
+#main-footer {
+	background-color: #343a40;
+	color: #fff;
+	text-align: center;
+	padding: 12px;
+	margin-top: 40px;
+}
