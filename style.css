@@ -78,6 +78,10 @@ animation: shake 0.5s;
 	justify-content: space-evenly;
 }
 
+#about, #skills, #projects, #contact {
+	background-color: #d9ecf2;
+}
+
 main section:nth-of-type(odd) h2 {
 	background-color: rgb(60, 90, 119);
 	color: #fff;
