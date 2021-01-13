@@ -115,6 +115,10 @@ ul {
 	padding-left: 50px;
 }
 
+#skills p {
+	padding-left: 40px;
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
 	/* Styles */
