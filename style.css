@@ -72,7 +72,7 @@ animation: shake 0.5s;
 
 #main-content div {
 	padding: 60px 80px;
-	padding-left: 150px;
+	padding-left: 100px;
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -107,8 +107,12 @@ ul {
 	font-style: italic;
 }
 
-#about ul {
+#about dl {
 	padding-left: 80px;
+}
+
+#about ul {
+	padding-left: 50px;
 }
 
 /* Smartphones (portrait) ----------- */
